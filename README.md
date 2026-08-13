@@ -1,6 +1,7 @@
 # qec-distance-certificates
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21916476.svg)](https://doi.org/10.5281/zenodo.21916476)
+[![PyPI](https://img.shields.io/pypi/v/qec-distance-certificates)](https://pypi.org/project/qec-distance-certificates/)
 
 **Certificate-based distance verification for CSS(RM) affine-complete quantum codes — distance-certifying, not distance-finding.**
 
@@ -22,7 +23,8 @@ of machine-checked steps.
 ## Installation
 
 ```bash
-pip install -e .          # editable install (local)
+pip install qec-distance-certificates   # from PyPI
+pip install -e .                        # or: editable install from source (development)
 ```
 
 Dependencies: numpy >= 1.24, Python >= 3.9.
